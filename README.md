@@ -1,20 +1,7 @@
 # eehub
-hub for GEE community to shared the script
 
+hub for GEE community to shared the script [https://code.earthengine.google.com/?accept_repo=eehub](https://code.earthengine.google.com/?accept_repo=eehub )
 
-Array and Matrix
-Chart and Plot
-Datasets
-FeatureCollection
-ImageCollection
-LICENSE
-Misc
-README.md
-Reducer
-SAR
-Sentinel-2
-Server Side
-UI Widgets
 
 ## Array and Matrix
 Savitzky Golay smoothing
