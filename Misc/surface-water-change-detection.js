@@ -3,8 +3,9 @@
  * 
  * Citation: Donchyts, Gennadii, et al. "Earth's surface water change over the past 30 years." Nature Climate Change 6.9 (2016): 810-813.
  *
- * License: GPL
- * 
+ * License: LGPL
+ *
+ * See original code on http://github.com/deltares/aqua-monitor
  */
 
 var hand = ee.ImageCollection("users/gena/global-hand/hand-100"),
@@ -177,8 +178,7 @@ function renderWaterTrend(options) {
       Map.addLayer(result, {}, 'all percentiles ' + start.format('YYYY-MM-dd').getInfo(), false)
     });
   }
-  
-  
+
   // compute a single annual percentile
   var annualPercentile = ee.ImageCollection(list.map(function (i) {
     var l = ee.List(i);
