@@ -1,3 +1,9 @@
+/***
+ * Scalebar, userful for figures.
+ *
+ * Author: Gennadii Donchyts (gennadiy.donchyts@gmail.com)
+ */
+
 var geometry = /* color: #98ff00 */ee.Geometry.LineString(
         [[-122.11803800178996, 37.46989834041986],
          [-122.05706255876578, 37.46989834041986]]);
@@ -10,7 +16,7 @@ var geometry3 = /* color: #0000ff */ee.Geometry.LineString(
         [[-122.11803800178996, 37.48989834041986],
          [-122.05706255876578, 37.48989834041986]]);
 
-Map.centerObject(geometry, 12)         
+Map.centerObject(geometry, 12)
 
 
 

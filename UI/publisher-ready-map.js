@@ -1,3 +1,9 @@
+/***
+ * Adds frame with degrees and scalebar as separater layers for figure publishing.
+ *
+ * Author: Gennadii Donchyts (gennadiy.donchyts@gmail.com)
+ */
+
 var geometry = /* color: #d63000 */ee.Geometry.LineString(
         [[-120.1959228515625, 36.559325329091834],
          [-118.28704833984375, 37.77400521704548]]),

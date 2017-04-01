@@ -1,4 +1,8 @@
-// rasterized geometries on PFAF12 
+/***
+* Author: Rutger Hofste (rutgerhofste@gmail.com)
+*/
+
+// rasterized geometries on PFAF12
 var HydroBASINSimage = ee.Image("users/rutgerhofste/PCRGlobWB20V04/support/global_Standard_lev00_30sGDALv01");
 var HydroBASINSimageProjection = HydroBASINSimage.projection();
 var HydroBASINSimageNominalScale = HydroBASINSimageProjection.nominalScale();
